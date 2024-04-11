@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: black;
+}
+.app{
+  width: 800px;
+  height: 650px;
+  border: 2px solid cyan;
+  position: relative;
+  margin: 5% 25%;
+  background-color: rgb(149, 46, 246);
+}
+.app h2{
+  text-align: center;
+  align-items: center;
+  color:  white;
+  font-family: sans-serif;
+  cursor: pointer;
+  padding-top: 30px;
+}
+.btn1{
+  width: 120px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: cyan;
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  top: 90%;
+  left: 40%;
+}
+.btn2{
+  width: 120px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: cyan;
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  top: 90%;
+  left: 60%;
+}
+
+
+.app-img{
+  width: 400px;
+  height: 300px;
+  border: 4px;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  box-shadow: -3px -3px 5px white ,5px 5px 10px white;
+}
+.img{
+  width: 400px;
+  height: 300px;
+}
+.pharagraph{
+  color: white;
+  font-size: 22px;
+  top: 75%;
+  padding-left: 25px;
+  position: absolute;
+  text-align: center;
+}
